@@ -7,9 +7,11 @@ Version:	2.5
 Release:	1
 License:	GPL
 Group:		Applications/Networking
-URL:		http://labrea.sourceforge.net/
 Source0:	http://dl.sourceforge.net/labrea/%{name}-%{version}-stable-1.tar.gz
 # Source0-md5:	e76d506e82b60cc5477ccee1b3368cda
+URL:		http://labrea.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,6 +39,7 @@ komputer mo¿e byæ zablokowany przez d³ugi okres czasu.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
