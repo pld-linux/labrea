@@ -4,7 +4,7 @@ Summary:	"Sticky" Honeypot and IDS
 Summary(pl):	Przynêta dla hackerów i IDS
 Name:		labrea
 Version:	2.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/labrea/%{name}-%{version}-stable-1.tar.gz
@@ -12,6 +12,8 @@ Source0:	http://dl.sourceforge.net/labrea/%{name}-%{version}-stable-1.tar.gz
 URL:		http://labrea.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libdnet-devel
+BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
