@@ -52,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog INSTALL NEWS README TODO
 %{_mandir}/man?/*
-%verify(not md5 size mtime) %config(noreplace) %{_sysconfdir}/%{name}.conf
+%verify(not md5 mtime size) %config(noreplace) %{_sysconfdir}/%{name}.conf
 %attr(755,root,root) %{_sbindir}/labrea
