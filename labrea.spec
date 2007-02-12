@@ -1,7 +1,7 @@
 # TODO:
 # - initscript
 Summary:	"Sticky" Honeypot and IDS
-Summary(pl):	Przynêta dla hackerów i IDS
+Summary(pl.UTF-8):   PrzynÄ™ta dla hackerÃ³w i IDS
 Name:		labrea
 Version:	2.5
 Release:	2
@@ -23,11 +23,11 @@ Internet. The program answers connection attempts in such a way that
 the machine at the other end gets "stuck", sometimes for a very long
 time.
 
-%description -l pl
+%description -l pl.UTF-8
 LaBrea przejmuje niewykorzystane adresy IP, i tworzy wirtualne serwery
-atrakcyjne dla robaków, hackerów i innych czarnych charakterów
-internetu. Program odpowiada prób± po³±czenia, tak ¿e atakuj±cy
-komputer mo¿e byæ zablokowany przez d³ugi okres czasu.
+atrakcyjne dla robakÃ³w, hackerÃ³w i innych czarnych charakterÃ³w
+internetu. Program odpowiada prÃ³bÄ… poÅ‚Ä…czenia, tak Å¼e atakujÄ…cy
+komputer moÅ¼e byÄ‡ zablokowany przez dÅ‚ugi okres czasu.
 
 %prep
 %setup -q -n %{name}-%{version}-stable-1
