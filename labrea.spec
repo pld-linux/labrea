@@ -1,7 +1,7 @@
 # TODO:
 # - initscript
 Summary:	"Sticky" Honeypot and IDS
-Summary(pl.UTF-8):   Przynęta dla hackerów i IDS
+Summary(pl.UTF-8):	Przynęta dla hackerów i IDS
 Name:		labrea
 Version:	2.5
 Release:	2
